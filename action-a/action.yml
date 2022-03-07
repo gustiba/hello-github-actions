@@ -1,0 +1,18 @@
+name: "Hello Action"
+description: "Greet someone"
+author: "gustiba"
+
+inputs:
+  MY_NAME:
+    description: "Who to greet"
+    required: true
+    defualt: "World"
+    
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  
+branding:
+  icon: "mic"
+  color: "purple"
+  
